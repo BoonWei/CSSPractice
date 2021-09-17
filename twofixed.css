@@ -1,0 +1,92 @@
+/*浮动布局float 两边固定 中间自适应*/
+/* #container{
+    background-color: aquamarine;
+    height: 500px;
+}
+
+#left{
+    background-color: blueviolet;
+    float: left;
+    width: 50px;
+    height: 500px;
+}
+
+#right{
+    background-color: blueviolet;
+    float: right;
+    width: 50px;
+    height: 500px;
+}
+
+#middle{
+    background-color: chartreuse;
+    height: 500px;
+} */
+
+
+
+/*绝对定位 两边固定 中间自适应*/
+/* #container{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#left{
+    background-color: blueviolet;
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#right{
+    background-color: blueviolet;
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#middle{
+    overflow: hidden;
+    background-color: chartreuse;
+    height: 500px;
+    margin: 0 50px;
+}  */
+
+
+
+/*flex 两边固定 中间自适应*/
+#container{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+#left{
+    background-color: blueviolet;
+    width: 50px;
+    height: 500px;
+    margin: 0;
+}
+
+#right{
+    background-color: blueviolet;
+    width: 50px;
+    height: 500px;
+    margin: 0;
+}
+
+#middle{
+    overflow: hidden;
+    background-color: chartreuse;
+    height: 500px;
+    margin: 0;
+    flex: 1;
+}  
