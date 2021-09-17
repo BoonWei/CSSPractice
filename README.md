@@ -18,3 +18,6 @@ Some practice about CSS.
 ```
 css中实现了子元素box的水平垂直居中，包括三种方法：绝对定位、flex布局、transform。
 
+### twofixed.css
+
+实现了left、right两个元素两边固定，middle元素中间自适应的样式，包括三种方法：浮动布局float、绝对定位、flex布局。
