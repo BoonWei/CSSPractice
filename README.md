@@ -16,5 +16,5 @@ Some practice about CSS.
     </div>
 </div>
 ```
-css中实现了子元素box的垂直居中，包括三种方法：绝对定位、flex布局、transform。
+css中实现了子元素box的水平垂直居中，包括三种方法：绝对定位、flex布局、transform。
 
